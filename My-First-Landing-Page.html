@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Landing Page</title>
+
+        <style>
+            body{
+                font-family:cursive;
+            }
+            .navbar{
+                background-color: black;
+                border-radius: 30px;
+                position: fixed;
+                width: 100%;
+            }
+            .navbar li{
+                float: left;
+                list-style: none;
+                margin: 2px 20px 4px 20px;
+            }
+            .navbar{
+                overflow: auto;
+            }
+
+            .navbar li a{
+                text-decoration:  none;
+                color: yellow;
+                padding: 3px 3px;
+
+            }
+
+            .navbar li a:visited{
+                color: grey;
+
+            }
+            .navbar li a:hover{
+                background-color: yellow;
+                color: black;
+            }
+            .navbar li a:active{
+                background-color: rgb(245, 245, 169);
+            }
+            .search{
+            float: right;
+            color: white;
+            padding: 3px 75px;
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+        .headingpara{
+            width: 50%;
+            padding: 10px;
+            text-align: justify;
+            
+        }
+        .HeadingImage{
+            display: inline-block;
+            position: relative;
+            top: -560px;
+            right: -800px;
+            
+        
+        }
+        .class {
+            border: 1px solid black;
+        }
+        h1, h2{
+            padding-left: 10px;
+        }
+        .aboutus{ 
+            padding: 10px;
+            text-align: justify;
+            
+
+        }
+        .con{
+            padding: 5px;
+        }
+
+        .Form-labels, .form-input{
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .form-input{
+            border: 2px solid black;
+            padding: 5px;
+            border-radius: 4px;
+        }
+
+        .btn{
+            background-color: black;
+            color: yellow;
+            border: 2px solid black;
+            margin-left: 15%;
+            margin-bottom: 20px;
+            border-radius: 4px;
+            padding: 10px 40px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .btn:hover{
+            background-color: yellow;
+            color: black;
+            
+        }
+        .serv{
+            list-style: none;
+            display: inline-block;
+            border: 1px Solid Black;
+            background-color: azure;
+            padding: 25px;
+            margin: 8px;
+            width: 80px;
+            height: 100px;
+            max-height: 100px;
+           
+        }
+        .serv:hover{
+            cursor: pointer;
+            background-color: aqua;
+            color: black;
+            font-weight: bold;
+
+        }
+        #message{
+            max-width: 80%;
+        }
+        
+
+
+
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#Home" id="active">Home</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#About-us">About Us</a></li>
+                    <li><a href="#Contact-Us">Contact US</a></li>
+                    <div class="search">
+                        <input type="text" name="search" id="search" placeholder="Search this website">
+                    </div>
+                </ul>
+            </nav>
+        </header><br/>
+        <div style="background-color:#ffcccc ;" class="class" id="Home">
+            <h1> My First Landing Page</h1><hr/>
+            <p class="headingpara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio ratione asperiores obcaecati voluptates commodi, enim, provident aperiam quis quasi amet sed, possimus tempore fugit odio.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ut corporis reiciendis iure at, ipsum odit voluptatem possimus repellendus aliquid reprehenderit molestias ducimus minima minus quas quaerat vitae! Ullam, dicta! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque quia quam quibusdam assumenda nesciunt debitis nobis quo odit ea tempora deserunt repudiandae voluptatem autem harum nam facilis, odio excepturi! Ipsum expedita dolorum ex ullam accusamus accusantium reprehenderit libero debitis deserunt quasi, sit saepe temporibus consectetur quidem tempore exercitationem animi ducimus! Non, beatae!</p><br/>
+            <p  class="headingpara">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ut dolor quae minus dolorem suscipit possimus tempore. Impedit explicabo est rem culpa nesciunt enim officia a cupiditate deleniti. Repellendus nesciunt delectus nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, in! Veritatis repudiandae, veniam vitae eos reprehenderit sint quia placeat in, culpa vel eveniet similique soluta, nobis consectetur aliquam maxime ipsum cumque est laborum esse natus incidunt nisi? Necessitatibus soluta sit, perspiciatis ipsam eaque vero molestias voluptatum aspernatur neque velit et, nemo praesentium facere voluptate blanditiis officiis placeat atque eos ducimus, possimus dolorum. Iusto voluptatem laborum facilis inventore illo provident aliquid odio facere iste nulla reiciendis fugit ullam, nesciunt, ut hic eveniet labore praesentium fugiat dignissimos nisi exercitationem ipsum quibusdam! Doloremque, quam nisi!</p>
+            <img class="HeadingImage"  src="https://images.unsplash.com/photo-1536104968055-4d61aa56f46a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGV2ZWxvcGVyfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="profile-image">
+
+
+        </div>
+
+        <div style="background-color: #ffffb3;" class="class" id="Services">
+            <h2>Our Services</h2>
+            <ul>
+                <li class="serv">Quae facilis nobis blanditiis rem.</li>
+                <li class="serv">Quae facilis nobis blanditiis rem.</li>
+                <li class="serv">Quae facilis nobis blanditiis rem.</li>
+                <li class="serv">Quae facilis nobis blanditiis rem.</li>
+                <li class="serv">Quae facilis nobis blanditiis rem.</li>
+                <li class="serv">Quae facilis nobis blanditiis rem.</li>
+                <li class="serv">Quae facilis nobis blanditiis rem.</li>
+            </ul>
+
+
+        </div>
+
+        <div style="background-color: #99d6ff;" class="class" id="About-us">
+            <h2>About Us</h2>
+            <p class="aboutus">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed quod cum dolorum incidunt eos id aliquam harum labore ad possimus voluptas excepturi nostrum, sequi illo iste provident nulla nobis itaque nam dolor cupiditate iusto maxime corporis. Atque officia ipsa, rerum enim fugit, exercitationem labore unde amet repudiandae tenetur vitae debitis eaque, consequuntur ratione sunt incidunt esse nihil numquam adipisci quis natus sit ut mollitia dolor. Magni eaque sed maiores repellat officiis, reiciendis officia earum eveniet deleniti nemo ducimus dolor, esse dolorum minus autem, sit quae provident. Voluptas possimus libero asperiores quos sequi, nulla sapiente vel quod facere dicta, ad suscipit?</p>
+            <p class="aboutus">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et sunt dolor quo eveniet eum atque cupiditate, impedit excepturi enim quaerat vero nihil tempore odio mollitia repellat qui quia, doloribus perferendis tempora minima quasi eius. Culpa ipsa vitae vero accusamus voluptatum? Neque, nisi quo? Perspiciatis a repellendus commodi aut quibusdam, magni blanditiis explicabo error culpa expedita. Totam maxime aspernatur voluptate qui explicabo doloremque labore at officiis eveniet minima consequuntur eos autem in, reiciendis excepturi, illum, incidunt soluta natus recusandae placeat! Voluptas perspiciatis cumque, quisquam nobis corporis blanditiis. Eveniet natus temporibus magnam atque quia deleniti assumenda voluptas illo voluptatibus cumque earum ea tempora fugiat vitae, autem numquam labore, alias commodi accusantium libero ipsa! Dicta ratione itaque neque possimus minus enim molestias totam. Ducimus maiores quis rem quam numquam! Distinctio, officia! Perspiciatis tempora aspernatur tempore est eius corporis dolorem mollitia et magni vitae maiores ipsum velit suscipit totam, eos officia, repudiandae iure dolor?</p>
+
+        </div>
+
+        <div style="background-color: #ccffdd;" class="class" id="Contact-Us">
+            <h2>Contact Us</h2>
+            <form action="#" class="con">
+                <label for="name" class="Form-labels">Name:</label>
+                <input type="text" name="name" class="form-input" id="name" required><br/>
+                <label for="number" class="Form-labels">Phone Number:</label>
+                <input type="number" name="number" class="form-input" id="number" required><br/>
+                <label for="email" class="Form-labels">Email Id:</label>
+                <input type="email" name="email" class="form-input" id="email" required><br/>
+                <label for="message" class="Form-labels">Comments/sugesstion:</label><br/>
+                <textarea name="message" id="message" cols="70" rows="15" class="form-input" required></textarea><br/>
+                <button type="submit" class="btn">Send</button>
+                          
+            </form>
+
+
+        </div>
+        
+    </body>
+</html>
